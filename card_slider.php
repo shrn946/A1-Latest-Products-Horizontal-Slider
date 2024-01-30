@@ -123,7 +123,6 @@ function custom_a1_product_slider($atts) {
 
 add_shortcode('A1_Product_Slider', 'custom_a1_product_slider');
 
-
 /**
  * Free Product Carousel Shortcodes Plugin
  *
@@ -144,16 +143,10 @@ function free_product_carousel_shortcodes_settings_page() {
     <p>Show the latest products with a number count:</p>
     <pre>[latest_products_gallery num_products="5"]</pre>
     
-    <p>PHP shortcode for page templates:</p>
-    <pre><?php echo do_shortcode('[A1_Product_Slider]'); ?></pre>
-    
-    <p>Embedding in PHP within page templates:</p>
-    <pre><?php echo do_shortcode('[A1_Product_Slider]'); ?></pre>
+   
 </div>
-
     <?php
 }
-
 /**
  * Function to add the settings page to the admin menu
  */

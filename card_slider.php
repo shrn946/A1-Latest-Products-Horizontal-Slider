@@ -141,7 +141,7 @@ function free_product_carousel_shortcodes_settings_page() {
     <pre>[A1_Product_Slider]</pre>
 
     <p>Show the latest products with a number count:</p>
-    <pre>[latest_products_gallery num_products="5"]</pre>
+    <pre>[A1_Product_Slider num_products="5"]</pre>
     
    
 </div>
